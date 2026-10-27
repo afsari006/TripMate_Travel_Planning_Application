@@ -1,0 +1,62 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="400">
+
+    <!-- Sky Background Layer -->
+    <path
+        android:pathData="M0,0 h200 v400 h-200 z"
+        android:fillColor="#D2ECED"/>
+
+    <!-- Soft Golden Sunset Sky Transition -->
+    <path
+        android:pathData="M0,150 Q100,120 200,150 L200,400 L0,400 Z"
+        android:fillColor="#FFF1D0"/>
+
+    <path
+        android:pathData="M0,220 Q100,200 200,220 L200,400 L0,400 Z"
+        android:fillColor="#FFD0A6"/>
+
+    <!-- Sun Disk -->
+    <path
+        android:pathData="M85,265 m-12,0 a12,12 0 1,0 24,0 a12,12 0 1,0 -24,0"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- Flying Birds Silhouette -->
+    <path
+        android:pathData="M95,200 Q98,196 102,200 Q106,196 109,200 Q105,198 102,201 Q99,198 95,200 Z"
+        android:fillColor="#4A3E3D"/>
+
+    <path
+        android:pathData="M70,220 Q73,217 76,220 Q79,217 82,220 Q78,218 76,221 Q73,218 70,220 Z"
+        android:fillColor="#4A3E3D"/>
+
+    <path
+        android:pathData="M115,225 Q118,222 121,225 Q124,222 127,225 Q123,223 121,226 Q118,223 115,225 Z"
+        android:fillColor="#4A3E3D"/>
+
+    <!-- Red/Pink Mountain Peaks in Background -->
+    <path
+        android:pathData="M110,320 L170,240 L220,320 Z"
+        android:fillColor="#E86F68"/>
+
+    <path
+        android:pathData="M170,240 L220,320 L170,320 Z"
+        android:fillColor="#D15250"/>
+
+    <path
+        android:pathData="M70,330 L135,260 L200,330 Z"
+        android:fillColor="#F2908B"
+        android:fillAlpha="0.7"/>
+
+    <!-- Foreground Dark Mountain Hills (No Human Figure) -->
+    <path
+        android:pathData="M-10,350 Q60,300 130,340 T210,330 L210,400 L-10,400 Z"
+        android:fillColor="#1E2D4A"/>
+
+    <path
+        android:pathData="M-10,370 Q50,330 110,365 T210,350 L210,400 L-10,400 Z"
+        android:fillColor="#101C33"/>
+
+</vector>

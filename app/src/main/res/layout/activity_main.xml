@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app_main"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Top Welcome Header Card with img.png Background -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="5dp"
+            android:layout_marginBottom="20dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img"
+                    android:contentDescription="TripMate Welcome Header" />
+
+                <!-- Dark Overlaid Scrim for 100% High-Contrast Readability -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:padding="20dp"
+                    android:background="#60000000">
+
+                    <!-- Big TRIPMATE Title -->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="✈ TRIPMATE"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:shadowColor="#FF000000"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="6" />
+
+                    <!-- Text Underneath TRIPMATE in Clean White with Drop Shadow (No Border/Capsule) -->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hello, Traveler! 👋"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginTop="2dp"
+                        android:shadowColor="#FF000000"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="6" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Explore &amp; Plan Your Next Adventure"
+                        android:textSize="13sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginTop="2dp"
+                        android:shadowColor="#FF000000"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="6" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Feature Buttons -->
+
+        <Button
+            android:id="@+id/btnExplore"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="🌍  Explore Destinations"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#176B87"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnPlan"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="🧳  Plan a New Trip"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#176B87"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnTicketBooking"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="🎟️  Ticket &amp; Hotel Booking"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#176B87"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnBudget"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="💰  Budget Calculator"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#176B87"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnWeather"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="🌤  Weather Forecast"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#176B87"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnPacking"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="🧰  Packing Checklist"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#176B87"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnMyTrips"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="📍  My Saved Trips"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#176B87"
+            android:layout_marginTop="10dp" />
+
+        <!-- Popular Destinations Title -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Popular Destinations"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#172554"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 1 Popular Destination Card: Cox's Bazar -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardCoxsBazar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/coxsbazar"
+                    android:contentDescription="Cox's Bazar" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🏖  Cox's Bazar, Bangladesh"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#176B87" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="World's longest natural sea beach with golden sand &amp; marine drive."
+                        android:textSize="14sp"
+                        android:textColor="#64748B"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</ScrollView>

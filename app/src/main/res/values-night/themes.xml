@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TripMate" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#176B87</item>
+        <item name="colorSecondary">#176B87</item>
+        <item name="colorAccent">#7C3AED</item>
+    </style>
+
+    <!-- Styled Dialog Theme with 100% Purple Action Buttons -->
+    <style name="CustomDialogTheme" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="android:background">#EBF4F6</item>
+        <item name="dialogCornerRadius">16dp</item>
+        <item name="colorPrimary">#7C3AED</item>
+        <item name="colorSecondary">#7C3AED</item>
+        <item name="colorAccent">#7C3AED</item>
+        <item name="android:textColorPrimary">#172554</item>
+        <item name="android:textColor">#172554</item>
+
+        <!-- Force Dialog Button Styles & Color -->
+        <item name="buttonBarPositiveButtonStyle">@style/PurpleDialogButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/PurpleDialogButton</item>
+        <item name="buttonBarNeutralButtonStyle">@style/PurpleDialogButton</item>
+    </style>
+
+    <style name="PurpleDialogButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">#7C3AED</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="120dp"
+    android:viewportWidth="200"
+    android:viewportHeight="120">
+
+    <!-- Sky -->
+    <path
+        android:pathData="M0,0 h200 v120 h-200 z"
+        android:fillColor="#87CEEB"/>
+
+    <!-- Sun -->
+    <path
+        android:pathData="M160,25 m-15,0 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0"
+        android:fillColor="#FFA500"/>
+
+    <!-- Sea Water -->
+    <path
+        android:pathData="M0,60 Q50,55 100,60 T200,60 L200,120 L0,120 Z"
+        android:fillColor="#0077BE"/>
+
+    <!-- Waves -->
+    <path
+        android:pathData="M0,75 Q50,70 100,75 T200,75 L200,120 L0,120 Z"
+        android:fillColor="#20B2AA"/>
+
+    <!-- Sandy Beach -->
+    <path
+        android:pathData="M0,95 Q60,85 120,95 T200,90 L200,120 L0,120 Z"
+        android:fillColor="#E6C280"/>
+
+    <!-- Beach Umbrella Silhouette -->
+    <path
+        android:pathData="M35,90 L35,70 M20,70 Q35,55 50,70 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#FF4500"
+        android:fillColor="#FF6347"/>
+
+</vector>

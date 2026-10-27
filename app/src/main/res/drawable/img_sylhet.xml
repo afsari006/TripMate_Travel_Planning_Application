@@ -1,0 +1,34 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="120dp"
+    android:viewportWidth="200"
+    android:viewportHeight="120">
+
+    <!-- Sky -->
+    <path
+        android:pathData="M0,0 h200 v120 h-200 z"
+        android:fillColor="#E0F7FA"/>
+
+    <!-- Sun -->
+    <path
+        android:pathData="M40,25 m-12,0 a12,12 0 1,0 24,0 a12,12 0 1,0 -24,0"
+        android:fillColor="#FFEB3B"/>
+
+    <!-- Back Green Tea Hills -->
+    <path
+        android:pathData="M0,120 L0,70 Q50,45 100,65 T200,55 L200,120 Z"
+        android:fillColor="#388E3C"/>
+
+    <!-- Front Green Tea Hills -->
+    <path
+        android:pathData="M0,120 L0,85 Q60,65 120,80 T200,70 L200,120 Z"
+        android:fillColor="#2E7D32"/>
+
+    <!-- Tea Plant Texture Rows -->
+    <path
+        android:pathData="M10,95 Q50,85 90,95 M110,90 Q150,80 190,90"
+        android:strokeWidth="2"
+        android:strokeColor="#1B5E20"
+        android:fillColor="#00000000"/>
+
+</vector>

@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="120dp"
+    android:viewportWidth="200"
+    android:viewportHeight="120">
+
+    <!-- Sky -->
+    <path
+        android:pathData="M0,0 h200 v120 h-200 z"
+        android:fillColor="#B2EBF2"/>
+
+    <!-- High Mountain Peak 1 -->
+    <path
+        android:pathData="M0,120 L40,40 L100,120 Z"
+        android:fillColor="#455A64"/>
+
+    <!-- High Mountain Peak 2 -->
+    <path
+        android:pathData="M70,120 L130,30 L190,120 Z"
+        android:fillColor="#37474F"/>
+
+    <!-- Front Green Hills -->
+    <path
+        android:pathData="M0,120 Q60,70 120,90 T200,80 L200,120 Z"
+        android:fillColor="#2E7D32"/>
+
+    <!-- Cloud on Peaks -->
+    <path
+        android:pathData="M20,50 a8,8 0 0,1 12,-3 a10,10 0 0,1 18,3 h-30 z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"/>
+
+    <path
+        android:pathData="M110,40 a8,8 0 0,1 12,-3 a10,10 0 0,1 18,3 h-30 z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"/>
+
+</vector>

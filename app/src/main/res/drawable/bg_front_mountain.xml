@@ -1,0 +1,68 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="400">
+
+    <!-- Sky Background Gradient -->
+    <path
+        android:pathData="M0,0 h200 v400 h-200 z"
+        android:fillColor="#DCE9FB"/>
+
+    <!-- Soft Cloud/Sky Curves -->
+    <path
+        android:pathData="M0,170 Q100,200 200,160 L200,400 L0,400 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.4"/>
+
+    <!-- Back Distant Mountain Ridges -->
+    <path
+        android:pathData="M-20,260 L40,180 L120,250 M80,260 L150,190 L220,260 Z"
+        android:fillColor="#9DB7F0"/>
+
+    <!-- Main Central Mountain Peak -->
+    <path
+        android:pathData="M10,280 L90,165 L170,280 Z"
+        android:fillColor="#6282E0"/>
+
+    <path
+        android:pathData="M90,165 L170,280 L90,280 Z"
+        android:fillColor="#4F6DC7"/>
+
+    <!-- Front Left & Right Foothills -->
+    <path
+        android:pathData="M0,290 L40,240 L100,290 Z"
+        android:fillColor="#3D59A6"/>
+
+    <path
+        android:pathData="M110,290 L160,230 L210,290 Z"
+        android:fillColor="#324988"/>
+
+    <!-- Lake Water -->
+    <path
+        android:pathData="M0,280 Q60,270 120,280 T200,275 L200,400 L0,400 Z"
+        android:fillColor="#68C7F8"/>
+
+    <!-- Lake Water Reflection Curves -->
+    <path
+        android:pathData="M0,310 Q50,300 100,310 T200,305 L200,400 L0,400 Z"
+        android:fillColor="#38A5E8"/>
+
+    <!-- Foreground Tropical Leaf Silhouettes at Bottom -->
+    <path
+        android:pathData="M0,400 L0,360 Q20,320 40,360 Q30,380 0,400 Z"
+        android:fillColor="#0E2338"/>
+
+    <path
+        android:pathData="M10,400 Q40,330 60,370 Q40,390 10,400 Z"
+        android:fillColor="#091A2E"/>
+
+    <path
+        android:pathData="M140,400 Q160,330 180,360 Q170,390 140,400 Z"
+        android:fillColor="#091A2E"/>
+
+    <path
+        android:pathData="M160,400 Q180,340 200,370 L200,400 Z"
+        android:fillColor="#0E2338"/>
+
+</vector>

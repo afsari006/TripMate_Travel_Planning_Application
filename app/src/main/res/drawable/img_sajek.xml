@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="120dp"
+    android:viewportWidth="200"
+    android:viewportHeight="120">
+
+    <!-- Sky -->
+    <path
+        android:pathData="M0,0 h200 v120 h-200 z"
+        android:fillColor="#80DEEA"/>
+
+    <!-- Mountain Ridges -->
+    <path
+        android:pathData="M0,120 L50,50 L110,120 M90,120 L150,45 L200,120 Z"
+        android:fillColor="#00695C"/>
+
+    <!-- Clouds in Valley -->
+    <path
+        android:pathData="M-10,80 Q30,65 70,80 T150,75 T210,80 L210,120 L-10,120 Z"
+        android:fillColor="#ECEFF1"/>
+
+    <path
+        android:pathData="M0,95 Q50,85 100,95 T200,90 L200,120 L0,120 Z"
+        android:fillColor="#FFFFFF"/>
+
+</vector>

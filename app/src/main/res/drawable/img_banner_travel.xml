@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="100dp"
+    android:viewportWidth="400"
+    android:viewportHeight="200">
+
+    <!-- Sky Background -->
+    <path
+        android:pathData="M0,0 h400 v200 h-400 z"
+        android:fillColor="#176B87"/>
+
+    <!-- Sun -->
+    <path
+        android:pathData="M320,50 m-20,0 a20,20 0 1,0 40,0 a20,20 0 1,0 -40,0"
+        android:fillColor="#FFD700"/>
+
+    <!-- Clouds -->
+    <path
+        android:pathData="M50,55 a15,15 0 0,1 25,-5 a20,20 0 0,1 35,5 a15,15 0 0,1 15,15 h-75 z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.85"/>
+
+    <!-- Distant Mountains -->
+    <path
+        android:pathData="M0,200 L70,110 L150,200 M120,200 L210,95 L300,200 M260,200 L330,125 L400,200 Z"
+        android:fillColor="#0F4C5C"/>
+
+    <!-- Foreground Hills -->
+    <path
+        android:pathData="M0,200 Q100,140 200,170 Q300,200 400,150 L400,200 Z"
+        android:fillColor="#053B48"/>
+
+</vector>
